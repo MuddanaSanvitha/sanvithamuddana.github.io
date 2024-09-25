@@ -51,17 +51,21 @@
             transition: background 0.3s ease-in-out;
         }
         a {
-            color: #fff;
+            color: #007bff; /* Blue color for links */
             text-decoration: underline;
+        }
+        a:hover {
+            color: #ff4500; /* Orange color on hover */
         }
         footer {
             background-color: #6a0dad;
             color: #fff;
             text-align: center;
             padding: 1rem;
-            position: fixed;
             width: 100%;
+            position: relative; /* Changed from fixed to relative */
             bottom: 0;
+            margin-top: 20px; /* Adds space between content and footer */
         }
     </style>
 </head>
