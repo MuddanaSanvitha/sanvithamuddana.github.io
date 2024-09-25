@@ -11,14 +11,15 @@
             font-family: 'Roboto', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #f9fafb;
             color: #333;
         }
         header {
-            background-color: #333;
+            background-color: #6a0dad;
             color: #fff;
             padding: 1rem;
             text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
         nav a {
             color: #fff;
@@ -39,12 +40,22 @@
             gap: 2rem;
         }
         .project, .publication {
-            background: #fff;
+            background: linear-gradient(135deg, #f0f, #0ff);
             padding: 1.5rem;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+        .project:hover, .publication:hover {
+            background: linear-gradient(135deg, #ffa500, #ff4500);
+            transition: background 0.3s ease-in-out;
+        }
+        a {
+            color: #fff;
+            text-decoration: underline;
         }
         footer {
-            background-color: #333;
+            background-color: #6a0dad;
             color: #fff;
             text-align: center;
             padding: 1rem;
@@ -80,12 +91,16 @@
             <p><a href="https://github.com/MuddanaSanvitha/APSSDC-Internship" target="_blank">View Project on GitHub</a></p>
         </div>
         <div class="project">
+            <h3>Credit Card Customer Prediction</h3>
+            <p>A Python-based predictive model that identifies potential credit card customers using data analysis and machine learning.</p>
+        </div>
+        <div class="project">
             <h3>Book Store Management</h3>
             <p>A software development project using C for managing a bookstore's inventory and customer purchases.</p>
         </div>
         <div class="project">
-            <h3>Speech Recognition</h3>
-            <p>An AI-based project for speech recognition, converting spoken words into text using Python.</p>
+            <h3>Tour and Travel Management</h3>
+            <p>A C++ project aimed at developing a system that allows customers to browse and book tour packages based on their preferences.</p>
         </div>
     </div>
 </section>
